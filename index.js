@@ -1,8 +1,15 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const prefix = '!';
-const token = 'NjY2ODE5MzA1MzQ1NjQ2NTk1.Xh5uYQ.ns1EwQluWYnB8Gka81S0UKVKz9E';
+const token = 'NjY2ODE5MzA1MzQ1NjQ2NTk1.Xh7Fcg.RCWO37Si8Upoooc2_O4ftFhex_4'; 
 
+
+import { Glitch } from 'glitch-api'
+const { Glitch } = require('glitch-api')
+const glitch = new Glitch({ token: '5ca5f624-0a66-4915-bef7-1e9000ffa0ee' }) 
+const { api } = glitch
+
+// Get a user profile
+api.users.get({ id: 1 }).then(user => console.log) // → User
 
 bot.on('ready', () =>{
     console.log('Online!');
