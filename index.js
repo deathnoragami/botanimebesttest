@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = 'NjY2ODE5MzA1MzQ1NjQ2NTk1.Xh7Fcg.RCWO37Si8Upoooc2_O4ftFhex_4'; 
+const token = ''; 
 
 
 import { Glitch } from 'glitch-api'
 const { Glitch } = require('glitch-api')
-const glitch = new Glitch({ token: '5ca5f624-0a66-4915-bef7-1e9000ffa0ee' }) 
+const glitch = new Glitch({ token: '' }) 
 const { api } = glitch
 
 // Get a user profile
